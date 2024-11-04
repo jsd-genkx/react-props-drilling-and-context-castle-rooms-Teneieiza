@@ -1,11 +1,11 @@
 import React from 'react'
 import Secretroom from './Secretroom'
 
-const Tower = ({message1, handleReply}) => {
+const Tower = () => {
   return (
     <div>
         Tower
-      <Secretroom message1={message1} handleReply={handleReply} />
+      <Secretroom />
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import Tower from './Tower'
 
-const Castle = ({message1, handleReply}) => {
+const Castle = () => {
   return (
     <div>
       Castle
-      <Tower message1={message1} handleReply={handleReply} />
+      <Tower />
     </div>
   )
 }
